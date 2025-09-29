@@ -3,36 +3,6 @@
 ##  Project Overview
 This project focuses on detecting fraudulent credit card transactions using machine learning. The dataset contains over 1.2 million transactions with only 0.57% fraud cases, presenting a classic imbalanced classification problem.
 
-## credit-card-fraud-detection-ml/
-│
-├── data/
-│   ├── fraudTrain.csv
-│   ├── fraudTest.csv
-│   └── README_data.md
-│
-├── notebooks/
-│   ├── 01_eda_fraud_detection.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_model_evaluation.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── evaluation_metrics.py
-│   └── utils.py
-│
-├── models/
-│   └── saved_models/
-│
-├── reports/
-│   ├── eda_findings.md
-│   └── model_performance.md
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-
-
 ##  Project Goals
 - Perform comprehensive Exploratory Data Analysis (EDA)
 - Handle severe class imbalance (0.57% fraud rate)
